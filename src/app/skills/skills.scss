@@ -1,0 +1,69 @@
+.skills {
+  margin: 4rem 0;
+}
+.skills .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.skills .container h2 {
+  font-size: 3rem;
+}
+.skills .container p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 75%;
+  margin-bottom: 2rem;
+}
+
+.skills__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.skills__info h3 {
+  font-size: 2rem;
+}
+.skills__info .line {
+  height: 0.0625rem;
+  width: 8rem;
+  background-color: black;
+  margin: 1rem 0;
+}
+.skills__info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.skills__info ul li {
+  font-size: 1.5rem;
+}
+
+.skills__charts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.skills__chart {
+  width: 25rem;
+  background-color: beige;
+  padding: 0.8rem 1rem;
+  position: relative;
+}
+.skills__chart::before {
+  content: "";
+  width: 90%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.444);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.skills__chart h5 {
+  font-size: 1.5rem;
+  z-index: 10;
+}

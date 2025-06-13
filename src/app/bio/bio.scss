@@ -1,0 +1,33 @@
+.bio {
+  padding-bottom: 4rem;
+}
+.bio .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.bio__img img {
+  border-radius: 50%;
+}
+.bio__img {
+  width: 20rem;
+  height: 20rem;
+}
+.bio__img,
+.bio__info {
+  max-width: 50%;
+}
+
+.bio__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.bio__info h2 {
+  font-size: 2.5rem;
+}
+.bio__info p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}

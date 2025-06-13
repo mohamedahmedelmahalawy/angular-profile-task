@@ -1,0 +1,43 @@
+.hero {
+  color: aliceblue;
+  position: relative;
+  padding-bottom: 4rem;
+}
+.hero .img-container {
+  height: 41.9909rem;
+  position: relative;
+}
+.hero .img-container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00000096;
+}
+
+.hero .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero__info {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__info h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+.hero__info p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
