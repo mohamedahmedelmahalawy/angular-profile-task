@@ -1,6 +1,11 @@
 .projects {
   margin: 4rem 0;
 }
+.projects .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .projects h2 {
   font-size: 3rem;
   margin-bottom: 2rem;

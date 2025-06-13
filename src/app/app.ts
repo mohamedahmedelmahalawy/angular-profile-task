@@ -5,10 +5,11 @@ import { Nav } from './nav/nav';
 import { Bio } from './bio/bio';
 import { Skills } from './skills/skills';
 import { Projects } from './projects/projects';
+import { Footer } from './footer/footer';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Hero, Nav, Bio, Skills, Projects],
+  imports: [RouterOutlet, Hero, Nav, Bio, Skills, Projects, Footer],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
