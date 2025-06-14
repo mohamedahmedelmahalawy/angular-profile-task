@@ -1,31 +1,13 @@
-<section class="projects">
+<section class="projects" id="projects">
   <div class="container">
     <h2>Projects</h2>
     <div class="projects__container">
+      @for(project of projects;track projects ){
       <div class="project">
-        <h3>Web Design</h3>
+        <h3>{{project}}</h3>
         <div class="line"></div>
       </div>
-      <div class="project">
-        <h3>Mobile Design</h3>
-        <div class="line"></div>
-      </div>
-      <div class="project">
-        <h3>LOGO Design</h3>
-        <div class="line"></div>
-      </div>
-      <div class="project">
-        <h3>WEB APPLICATION DEVELOMENT</h3>
-        <!-- <div class="line"></div> -->
-      </div>
-      <div class="project">
-        <h3>MOBILE APPLICATION DEVELOMENT</h3>
-        <!-- <div class="line"></div> -->
-      </div>
-      <div class="project">
-        <h3>PWA DEVELOMENT</h3>
-        <!-- <div class="line"></div> -->
-      </div>
+      }
     </div>
   </div>
 </section>

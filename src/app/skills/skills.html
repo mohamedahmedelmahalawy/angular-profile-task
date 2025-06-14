@@ -1,4 +1,4 @@
-<section class="skills">
+<section class="skills" id="skills">
   <div class="container">
     <h2>Skills</h2>
     <p>
@@ -22,18 +22,11 @@
         </ul>
       </div>
       <div class="skills__charts">
+        @for(skill of skills ;track skills){
         <div class="skills__chart">
-          <h5>{{skills[0]}}</h5>
+          <h5>{{skill}}</h5>
         </div>
-        <div class="skills__chart">
-          <h5>{{skills[1]}}</h5>
-        </div>
-        <div class="skills__chart">
-          <h5>{{skills[2]}}</h5>
-        </div>
-        <div class="skills__chart">
-          <h5>{{skills[3]}}</h5>
-        </div>
+        }
       </div>
     </div>
   </div>

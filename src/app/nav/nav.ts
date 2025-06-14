@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-nav',
   imports: [],
   templateUrl: './nav.html',
-  styleUrl: './nav.scss'
+  styleUrl: './nav.scss',
 })
 export class Nav {
-
+  nav: string[] = ['hero', 'bio', 'skills', 'projects', 'footer'];
 }
